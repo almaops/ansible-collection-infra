@@ -1,0 +1,21 @@
+---
+namespace: almaops
+name: infra
+version: 1.0.0
+readme: README.md
+authors:
+  - Dmitrii Kashin <freehck@freehck.com>
+description: 'Almaops roles for infrastructure'
+license:
+  - MIT
+tags:
+  - almaops
+dependencies:
+  almaops.common: ">=1.0.1"
+repository: 'https://github.com/almaops/ansible-collection-infra'
+homepage: 'https://almaops.com'
+issues: 'https://github.com/almaops/ansible-collection-infra/issues'
+build_ignore:
+  - .gitignore
+  - .yamllint
+...
